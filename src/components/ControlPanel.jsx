@@ -21,7 +21,7 @@ function ControlPanel() {
             {/* Top Row: Search and Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-3 items-center justify-between w-full">
                 {/* Search Bar */}
-                <div className="relative w-full sm:max-w-xs flex-grow">
+                <div className="relative w-full sm:max-w-xs grow">
                     <span className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                         <span className="text-gray-400 text-sm">🔍</span>
                     </span>

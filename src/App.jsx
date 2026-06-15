@@ -90,7 +90,7 @@ function App() {
       filter,
       setFilter
     }}>
-      <div className="bg-gradient-to-tr from-[#b8eade] to-[#e3faf4] min-h-screen py-10 px-4">
+      <div className="bg-linear-to-tr from-[#b8eade] to-[#e3faf4] min-h-screen py-10 px-4">
         <div className="w-full max-w-2xl mx-auto shadow-xl border border-white/20 rounded-3xl p-6 text-black bg-white/40 backdrop-blur-lg">
           <h1 className="text-3xl font-extrabold text-center mb-8 mt-2 text-gray-800 tracking-tight flex items-center justify-center gap-2">
             <span>✨</span> TaskFlow <span>✨</span>
