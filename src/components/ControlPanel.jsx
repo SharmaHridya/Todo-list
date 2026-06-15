@@ -32,6 +32,7 @@ function ControlPanel() {
                         onChange={(e) => setSearchTerm(e.target.value)}
                         className="w-full pl-9 pr-4 py-2 text-sm bg-white/80 border border-black/10 rounded-xl outline-none transition-all duration-200 focus:border-green-400 focus:ring-2 focus:ring-green-400/20 text-gray-800 placeholder-gray-400"
                     />
+                    {/* searchTerm && ... renders the button only if searchTerm is truthy */}
                     {searchTerm && (
                         <button
                             onClick={() => setSearchTerm("")}
