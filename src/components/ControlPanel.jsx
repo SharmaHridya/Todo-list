@@ -75,18 +75,16 @@ function ControlPanel() {
                             <button
                                 key={tab.id}
                                 onClick={() => setFilter(tab.id)}
-                                className={`flex items-center gap-1.5 px-4 py-1.5 text-xs sm:text-sm font-medium rounded-lg transition-all duration-300 flex-1 sm:flex-initial ${
-                                    isActive
-                                        ? 'bg-white text-green-700 shadow-sm font-semibold'
-                                        : 'text-gray-500 hover:text-gray-900 hover:bg-white/40'
-                                }`}
+                                className={`flex items-center gap-1.5 px-4 py-1.5 text-xs sm:text-sm font-medium rounded-lg transition-all duration-300 flex-1 sm:flex-initial ${isActive
+                                    ? 'bg-white text-green-700 shadow-sm font-semibold'
+                                    : 'text-gray-500 hover:text-gray-900 hover:bg-white/40'
+                                    }`}
                             >
                                 <span>{tab.label}</span>
-                                <span className={`px-1.5 py-0.5 text-[10px] rounded-full transition-all duration-300 ${
-                                    isActive
-                                        ? 'bg-green-100 text-green-700 font-bold'
-                                        : 'bg-gray-200 text-gray-600'
-                                }`}>
+                                <span className={`px-1.5 py-0.5 text-[10px] rounded-full transition-all duration-300 ${isActive
+                                    ? 'bg-green-100 text-green-700 font-bold'
+                                    : 'bg-gray-200 text-gray-600'
+                                    }`}>
                                     {tab.count}
                                 </span>
                             </button>
