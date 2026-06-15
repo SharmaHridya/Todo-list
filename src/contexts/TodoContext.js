@@ -6,13 +6,20 @@ export const TodoContext = createContext({
         {
             id:1,
             todo:"todo msg",
-            completed:false
+            completed:false,
+            color:"#FFDFD3"
         }
     ],
-    addTodo: (todo,completed) => {},
-    deleteTodo: (id,todo) => {},
-    updateTodo: (id) => {},
-    toggleComplete: (id) => {}
+    addTodo: (todo) => {},
+    deleteTodo: (id) => {},
+    updateTodo: (id, todo) => {},
+    toggleComplete: (id) => {},
+    completeAllTodos: () => {},
+    deleteAllTodos: () => {},
+    searchTerm: "",
+    setSearchTerm: () => {},
+    filter: "all",
+    setFilter: () => {}
 })
 
 export const useTodo=()=>{

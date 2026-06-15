@@ -1,5 +1,6 @@
 import TodoForm from "./TodoForm";
 import TodoItem from "./TodoItem";
-import DeleteAll from "./DeleteAll";
+import ControlPanel from "./ControlPanel";
+import TodoList from "./TodoList";
 
-export { TodoForm, TodoItem, DeleteAll }
+export { TodoForm, TodoItem, ControlPanel, TodoList }
